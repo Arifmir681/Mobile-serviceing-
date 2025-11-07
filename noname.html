@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Servicing Center - Arif Hossain</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #0b132b;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+    }
+    header h1 { margin: 0; font-size: 22px; }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a:hover { color: #00bcd4; }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 { font-size: 40px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; margin-bottom: 20px; }
+    .hero button {
+      background-color: #00bcd4;
+      border: none;
+      padding: 12px 25px;
+      color: white;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .hero button:hover { background-color: #0097a7; }
+
+    .services {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .services h3 {
+      font-size: 26px;
+      margin-bottom: 30px;
+      color: #0b132b;
+    }
+    .service-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      width: 250px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover { transform: translateY(-5px); }
+    .service-card h4 { color: #00bcd4; margin-bottom: 10px; }
+
+    .about {
+      background-color: #e0f7fa;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .contact {
+      background: #0b132b;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer {
+      background: #071122;
+      color: #ccc;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+    }
+
+    @media(max-width: 768px) {
+      .service-list { flex-direction: column; align-items: center; }
+      header { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📱 Mobile Servicing - Arif Hossain</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Book Now</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fast & Trusted Mobile Servicing</h2>
+    <p>Trusted by hundreds of happy customers — handled by expert <b>Arif Hossain</b>.</p>
+    <button>Book Your Service Now</button>
+  </section>
+
+  <section class="services">
+    <h3>Our Services</h3>
+    <div class="service-list">
+      <div class="service-card">
+        <h4>📱 Screen Replacement</h4>
+        <p>Original quality display replacement at affordable cost.</p>
+      </div>
+      <div class="service-card">
+        <h4>🔋 Battery Replacement</h4>
+        <p>High-quality battery with 6-month warranty.</p>
+      </div>
+      <div class="service-card">
+        <h4>💾 Software Update</h4>
+        <p>System updates, virus removal, and optimization.</p>
+      </div>
+      <div class="service-card">
+        <h4>🔧 Water Damage Repair</h4>
+        <p>Specialist cleaning and part replacement service.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h3>About Our Service</h3>
+    <p>
+      We provide professional mobile repair services for all brands.  
+      Our expert technician <b>Arif Hossain</b> ensures quality, reliability, and fast turnaround time.
+    </p>
+  </section>
+
+  <section class="contact">
+    <h3>Contact Us</h3>
+    <p>📞 +8801855-656166</p>
+    <p>✉️ arifmir1998@gmail.com</p>
+    <p>🏠 Borojona,Kapasia,Gazipur, Bangladesh</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Mobile Servicing Center | Designed by Arif Hossain
+  </footer>
+
+</body>
+<button onclick="window.location.href='https://wa.me/8801717521294'">
+  Book on WhatsApp
+</button>
+</html>
